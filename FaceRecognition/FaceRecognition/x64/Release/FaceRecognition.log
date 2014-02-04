@@ -1,0 +1,22 @@
+﻿Build started 2/4/2014 10:44:00 AM.
+     1>Project "c:\Users\002684694\documents\visual studio 2010\projects\FaceRecognition\FaceRecognition\FaceRecognition.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\FaceRecognition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\modules\imgproc\include /IC:\opencv\modules\video\include /IC:\opencv\modules\objdetect\include /IC:\opencv\modules\gpu\include /IC:\opencv\modules\highgui\include /IC:\opencv\modules\core\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\002684694\documents\visual studio 2010\Projects\FaceRecognition\x64\Release\FaceRecognition.exe" /NOLOGO C:\opencv_samples\lib\Release\opencv_core246.lib C:\opencv_samples\lib\Release\opencv_flann246.lib C:\opencv_samples\lib\Release\opencv_imgproc246.lib C:\opencv_samples\lib\Release\opencv_highgui246.lib C:\opencv_samples\lib\Release\opencv_ml246.lib C:\opencv_samples\lib\Release\opencv_video246.lib C:\opencv_samples\lib\Release\opencv_objdetect246.lib C:\opencv_samples\lib\Release\opencv_photo246.lib C:\opencv_samples\lib\Release\opencv_nonfree246.lib C:\opencv_samples\lib\Release\opencv_features2d246.lib C:\opencv_samples\lib\Release\opencv_calib3d246.lib C:\opencv_samples\lib\Release\opencv_legacy246.lib C:\opencv_samples\lib\Release\opencv_contrib246.lib C:\opencv_samples\lib\Release\opencv_stitching246.lib C:\opencv_samples\lib\Release\opencv_videostab246.lib C:\opencv_samples\lib\Release\opencv_gpu246.lib C:\opencv_samples\3rdparty\lib\Release\zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\FaceRecognition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\002684694\documents\visual studio 2010\Projects\FaceRecognition\x64\Release\FaceRecognition.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\002684694\documents\visual studio 2010\Projects\FaceRecognition\x64\Release\FaceRecognition.lib" /MACHINE:X64 x64\Release\main.obj
+         Generating code
+         Finished generating code
+         FaceRecognition.vcxproj -> c:\users\002684694\documents\visual studio 2010\Projects\FaceRecognition\x64\Release\FaceRecognition.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\002684694\documents\visual studio 2010\Projects\FaceRecognition\x64\Release\FaceRecognition.exe;#1" /manifest x64\Release\FaceRecognition.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\FaceRecognition.unsuccessfulbuild".
+         Touching "x64\Release\FaceRecognition.lastbuildstate".
+     1>Done Building Project "c:\Users\002684694\documents\visual studio 2010\projects\FaceRecognition\FaceRecognition\FaceRecognition.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.61
